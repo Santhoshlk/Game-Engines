@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Tessera/Tessera.vcxproj" Id="a11bf012-3964-4112-9aa6-b7c7d53829bd" />
+</Solution>
