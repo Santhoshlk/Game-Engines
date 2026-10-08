@@ -22,11 +22,11 @@
     <Filter Include="Resource Files\Vendor\Lua">
       <UniqueIdentifier>{0ffb747b-2f44-4021-a6bc-9e7705c3d4fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameEngineClasses">
+      <UniqueIdentifier>{2301ab50-4fd6-4153-89e5-9d434added85}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Vendor\ImGui\imgui_demo.cpp">
       <Filter>Resource Files\Vendor\ImGui</Filter>
     </ClCompile>
@@ -150,5 +150,16 @@
     <ClCompile Include="Vendor\Lua\src\lzio.c">
       <Filter>Resource Files\Vendor\Lua</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

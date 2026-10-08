@@ -142,7 +142,8 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TestMain.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_opengl3.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_sdl3.cpp" />
     <ClCompile Include="Vendor\ImGui\imgui.cpp" />
@@ -190,6 +191,9 @@
     <ClCompile Include="Vendor\Lua\src\lutf8lib.c" />
     <ClCompile Include="Vendor\Lua\src\lvm.c" />
     <ClCompile Include="Vendor\Lua\src\lzio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
