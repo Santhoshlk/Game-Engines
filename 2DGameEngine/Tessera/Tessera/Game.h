@@ -2,25 +2,26 @@
 #define GAME_H
 
 #include <iostream>
+#include <SDL3/SDL.h>
 
 
 class Game
 {
 private:
-    // some private data etc
-
+   //  some private data etc
+    SDL_Window* GameWindow = nullptr;
 public:
 
     Game();
-    ~Game();
+  virtual  ~Game();
 
-    void Initialize();
-    void Run();
-    void Destroy();
+  virtual   void Initialize();
+  virtual  void Run();
+  virtual void Destroy();
 
-    void ProcessInput();
-    void Update();
-    void Render();
+  virtual  void ProcessInput();
+  virtual   void Update();
+  virtual  void Render();
 
 protected:
 };
