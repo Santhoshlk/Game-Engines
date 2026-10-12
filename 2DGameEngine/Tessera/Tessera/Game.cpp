@@ -19,7 +19,7 @@ void Game::Initialize()
 {
    if (!SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO))
    {
-       printf("The Sdl has not been initialized correctly");
+       printf("The Sdl has not been initialized correctly\n");
        return;
    }
    
@@ -27,7 +27,7 @@ void Game::Initialize()
 
     if (!mainwindow)
     {
-        printf("The sdl window creation has not been initialized correctly");
+        printf("The sdl window creation has not been initialized correctly\n");
         SDL_Quit();
         return;
     }
@@ -55,14 +55,16 @@ void Game::Run()
 
 void Game::Destroy()
 {
-  
+    SDL_Quit();
 }
 
 void Game::ProcessInput()
 {
+  
     SDL_Event event;
     while (SDL_PollEvent(&event))
     {
+       
         if (event.type == SDL_EVENT_QUIT)
         {
             isRunning = false;
@@ -75,7 +77,7 @@ void Game::ProcessInput()
         }
 
     }
-
+    
 }
 
 void Game::Update()

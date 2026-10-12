@@ -7,7 +7,7 @@
 
 
 //** Our Headers start **//
-#include "Game.h"
+#include "gl_Game.h"
 //** Our Headers end **//
 
 Game* game = nullptr;
@@ -15,7 +15,7 @@ Game* game = nullptr;
 
 int main(void)
 {
-    game = new Game;
+    game = new gl_Game;
 
     game->Initialize();
 

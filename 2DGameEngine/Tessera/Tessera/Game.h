@@ -8,9 +8,7 @@
 class Game
 {
 private:
-   //  some private data etc
-    SDL_Window* GameWindow = nullptr;
-    bool isRunning = true;
+   
 public:
 
     Game();
@@ -20,11 +18,15 @@ public:
   virtual  void Run();
   virtual void Destroy();
 
-  virtual  void ProcessInput();
-  virtual   void Update();
-  virtual  void Render();
 
 protected:
+
+    //  some private data etc
+    SDL_Window* GameWindow = nullptr;
+    bool isRunning = true;
+    virtual  void ProcessInput();
+    virtual   void Update();
+    virtual  void Render();
 };
 
 #endif

@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="gl_Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_opengl3.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_sdl3.cpp" />
@@ -194,6 +195,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
+    <ClInclude Include="gl_Game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
