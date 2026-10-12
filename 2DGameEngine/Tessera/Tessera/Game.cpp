@@ -22,7 +22,13 @@ void Game::Initialize()
        printf("The Sdl has not been initialized correctly\n");
        return;
    }
-   
+  const SDL_DisplayMode* Display = SDL_GetCurrentDisplayMode(SDL_GetPrimaryDisplay());
+
+   SDL_SetWindowFullscreenMode(GameWindow,Display);
+
+    SDL_SetWindowFullscreen(GameWindow,true);
+
+
    SDL_Window* mainwindow = SDL_CreateWindow("Game Window",1000,500,SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
     if (!mainwindow)

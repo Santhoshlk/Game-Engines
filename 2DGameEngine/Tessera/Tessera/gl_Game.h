@@ -3,10 +3,10 @@
 class gl_Game : public Game
 {
 private:
-
+    bool bVsync = false;
 public:
 
-    gl_Game();
+    gl_Game(bool vsync);
 
     virtual void Initialize() override;
 

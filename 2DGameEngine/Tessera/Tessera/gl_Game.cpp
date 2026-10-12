@@ -3,7 +3,7 @@
 #include  <GL/GL.h>
 #include <iostream>
 
-gl_Game::gl_Game()
+gl_Game::gl_Game(bool vsync) :bVsync(vsync)
 {
 }
 
@@ -23,9 +23,12 @@ void gl_Game::Initialize()
 
 
     //TODO: add double buffer add vsync add depth 
+   
+
+ 
 
 
-    SDL_Window* mainwindow = SDL_CreateWindow("Game Window", 1000, 500, SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
+    SDL_Window* mainwindow = SDL_CreateWindow("Game Window", 1000, 500, SDL_WINDOW_OPENGL);
 
     if (!mainwindow)
     {
@@ -34,6 +37,11 @@ void gl_Game::Initialize()
         return;
     }
     GameWindow = mainwindow;
+
+    const SDL_DisplayMode* Display = SDL_GetCurrentDisplayMode(SDL_GetPrimaryDisplay());
+
+    SDL_SetWindowFullscreenMode(GameWindow, Display);
+    SDL_SetWindowFullscreen(GameWindow, true);
 
     SDL_GLContext Context = SDL_GL_CreateContext(GameWindow);
 
@@ -47,6 +55,10 @@ void gl_Game::Initialize()
         SDL_Quit();
         return;
     }
+
+
+    // NOTE: Vsync should only be set after context has been created
+    SDL_GL_SetSwapInterval(bVsync);
      
     int framebufferwidth, framebufferheight;
 
@@ -78,12 +90,13 @@ void gl_Game::Run()
 
 void gl_Game::Destroy()
 {
+    //Todo : destroy gl ones.
     Game::Destroy();
 }
 
 gl_Game::~gl_Game()
 {
-
+    std::cout << "The gl game instance has been destroyed ." << std::endl;
 }
 
 void gl_Game::ProcessInput()

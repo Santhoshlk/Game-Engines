@@ -22,8 +22,9 @@ public:
 protected:
 
     //  some private data etc
-    SDL_Window* GameWindow = nullptr;
     bool isRunning = true;
+    SDL_Window* GameWindow = nullptr;
+   
     virtual  void ProcessInput();
     virtual   void Update();
     virtual  void Render();
