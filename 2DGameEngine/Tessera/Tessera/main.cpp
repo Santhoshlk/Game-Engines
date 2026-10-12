@@ -21,7 +21,8 @@ int main(void)
 
     game->Run();
 
-
+    game->Destroy();
+        
     delete game;
 
 }

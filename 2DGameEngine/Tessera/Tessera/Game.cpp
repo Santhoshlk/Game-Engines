@@ -9,7 +9,10 @@ Game::Game()
 
 Game::~Game()
 {
-    Destroy();
+    std::cout << "The Game Instance has been Destroyed" << std::endl;
+
+    SDL_DestroyWindow(GameWindow);
+    SDL_Quit();
 }
 
 void Game::Initialize()
@@ -35,9 +38,14 @@ void Game::Initialize()
 
 void Game::Run()
 {
-    while (true)
+    while (isRunning)
     {
         ProcessInput(); 
+        if (!isRunning)
+        {
+            break;
+        }
+
         Update();
         Render();
     }
@@ -47,11 +55,27 @@ void Game::Run()
 
 void Game::Destroy()
 {
-    std::cout << "The Game Instance has been Destroyed" << std::endl;
+  
 }
 
 void Game::ProcessInput()
 {
+    SDL_Event event;
+    while (SDL_PollEvent(&event))
+    {
+        if (event.type == SDL_EVENT_QUIT)
+        {
+            isRunning = false;
+            break;
+        }
+        else if (event.type == SDL_EVENT_KEY_DOWN && event.key.key == SDLK_ESCAPE)
+        {
+            isRunning = false;
+            break;
+        }
+
+    }
+
 }
 
 void Game::Update()

@@ -10,6 +10,7 @@ class Game
 private:
    //  some private data etc
     SDL_Window* GameWindow = nullptr;
+    bool isRunning = true;
 public:
 
     Game();
