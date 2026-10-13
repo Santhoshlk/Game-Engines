@@ -198,25 +198,28 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BufferLayout.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IndexBuffer.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Renderer.h">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClInclude>
-    <ClInclude Include="ShaderProgram.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Texture.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VertexArray.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VertexBuffers.h">
-      <Filter>Source Files\RendererClasses</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStructs.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

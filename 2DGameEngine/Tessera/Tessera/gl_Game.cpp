@@ -2,9 +2,18 @@
 #include <GL/glew.h>
 #include  <GL/GL.h>
 #include <iostream>
+#include "Texture.h"
+#include "VertexBuffers.h"
+#include "ShaderProgram.h"
+#include "IndexBuffer.h"
+#include "VertexArray.h"
 
-gl_Game::gl_Game(bool vsync) :bVsync(vsync)
+
+
+gl_Game::gl_Game(bool vsync , int w , int h) :bVsync(vsync)
 {
+    width = w;
+    height = h;
 }
 
 void gl_Game::Initialize()
@@ -28,7 +37,7 @@ void gl_Game::Initialize()
  
 
 
-    SDL_Window* mainwindow = SDL_CreateWindow("Game Window", 1000, 500, SDL_WINDOW_OPENGL);
+    SDL_Window* mainwindow = SDL_CreateWindow("Game Window", width, height, SDL_WINDOW_OPENGL | SDL_WINDOW_BORDERLESS);
 
     if (!mainwindow)
     {

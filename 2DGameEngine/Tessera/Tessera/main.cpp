@@ -15,7 +15,7 @@ Game* game = nullptr;
 
 int main(void)
 {
-    game = new gl_Game(true);
+    game = new gl_Game(true,1000,500);
 
     game->Initialize();
 

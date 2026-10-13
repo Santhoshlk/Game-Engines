@@ -1,12 +1,24 @@
 #pragma once
 #include "Game.h"
+#include <vector>
+
+class VertexBuffers;
+class Texture;
+
 class gl_Game : public Game
 {
 private:
     bool bVsync = false;
+    
+    std::vector<std::unique_ptr<VertexArray>> vao;
+    std::vector<std::unique_ptr<VertexBuffers>> vbo;
+    std::vector<std::unique_ptr<IndexBuffer>> ibo;
+    std::vector < std::unique_ptr<ShaderProgram>> shaders;
+    std::vector<std::unique_ptr<Texture>> textures;
+
 public:
 
-    gl_Game(bool vsync);
+    gl_Game(bool vsync,int w,int h);
 
     virtual void Initialize() override;
 
