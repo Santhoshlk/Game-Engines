@@ -29,3 +29,8 @@ void Renderer::Clear() const
 {
     glClear(GL_COLOR_BUFFER_BIT);
 }
+
+Renderer::~Renderer()
+{
+
+}

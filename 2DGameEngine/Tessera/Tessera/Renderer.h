@@ -26,5 +26,6 @@ public:
 
     void Clear() const;
 
+    ~Renderer();
 };
 

@@ -2,11 +2,7 @@
 #include <GL/glew.h>
 #include  <GL/GL.h>
 #include <iostream>
-#include "Texture.h"
-#include "VertexBuffers.h"
-#include "ShaderProgram.h"
-#include "IndexBuffer.h"
-#include "VertexArray.h"
+#include "Renderer.h"
 
 
 
@@ -14,6 +10,7 @@ gl_Game::gl_Game(bool vsync , int w , int h) :bVsync(vsync)
 {
     width = w;
     height = h;
+    renderer = std::make_unique<Renderer>();
 }
 
 void gl_Game::Initialize()

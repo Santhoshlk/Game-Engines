@@ -3,13 +3,14 @@
 
 #include <iostream>
 #include <SDL3/SDL.h>
-#include "Renderer.h"
-#include <memory.h>
+#include <memory>
+
+class Renderer;
 
 class Game
 {
 private:
-    std::unique_ptr<Renderer> renderer;
+  
 
 public:
 
@@ -28,6 +29,7 @@ protected:
     SDL_Window* GameWindow = nullptr;
     int width = 1000;
     int height = 500;
+    std::unique_ptr<Renderer> renderer;
    
     virtual  void ProcessInput();
     virtual   void Update();
