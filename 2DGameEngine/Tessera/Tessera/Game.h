@@ -10,7 +10,7 @@ class Renderer;
 class Game
 {
 private:
-  
+    
 
 public:
 

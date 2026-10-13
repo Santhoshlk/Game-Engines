@@ -3,6 +3,7 @@
 #include  <GL/GL.h>
 #include <iostream>
 #include "Renderer.h"
+#include <gtc/matrix_transform.hpp>
 
 
 
@@ -123,13 +124,18 @@ void gl_Game::Render()
 {
     Game::Render();
 
-    // swap the buffers and clear color;
-    glClearColor(1.f, 0.f, 0.f, 1.f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    renderer->Clear();
+
    
 
 
     //Todo : actual rendering.
+    glm::mat4 proj = glm::ortho(0.f, (float)width, (float)height,0.f, -1.f, 1.f);
+
+    Rectangle rect(10.f, 10.f, 10.f, 20.f);
+
+    renderer->Rect(rect,proj);
+
 
 
     SDL_GL_SwapWindow(GameWindow);

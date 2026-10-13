@@ -213,6 +213,9 @@
     <ClInclude Include="VertexArray.h" />
     <ClInclude Include="VertexBuffers.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="objShader.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -45,9 +45,12 @@ void Game::Initialize()
 
 void Game::Run()
 {
+
     while (isRunning)
     {
-        ProcessInput(); 
+        Uint64 frameStart = SDL_GetTicksNS();
+
+        ProcessInput();
         if (!isRunning)
         {
             break;
@@ -55,9 +58,11 @@ void Game::Run()
 
         Update();
         Render();
+
+        Uint64 frameTimeNS = SDL_GetTicksNS() - frameStart;
+        double fps = 1'000'000'000.0 / frameTimeNS;
+        std::cout << "fps:" << fps << std::endl;
     }
-
-
 }
 
 void Game::Destroy()
