@@ -111,7 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)Vendor\glm;D:\ExternalLibraries\GLEW\include;$(ProjectDir)Vendor\ImGui;$(ProjectDir)Vendor\ImGui\Backend;$(ProjectDir)Vendor\SDL3;$(ProjectDir)Vendor\Lua\src;$(ProjectDir)Vendor\Sol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Vendor\glm;D:\ExternalLibraries\GLEW\include;$(ProjectDir)Vendor\ImGui;$(ProjectDir)Vendor\ImGui\Backend;$(ProjectDir)Vendor\SDL3;$(ProjectDir)Vendor\Lua\src;$(ProjectDir)Vendor\Sol;$(ProjectDir)Vendor\stbi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,9 +142,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BufferLayout.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="gl_Game.cpp" />
+    <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_opengl3.cpp" />
     <ClCompile Include="Vendor\ImGui\Backend\imgui_impl_sdl3.cpp" />
     <ClCompile Include="Vendor\ImGui\imgui.cpp" />
@@ -192,10 +198,19 @@
     <ClCompile Include="Vendor\Lua\src\lutf8lib.c" />
     <ClCompile Include="Vendor\Lua\src\lvm.c" />
     <ClCompile Include="Vendor\Lua\src\lzio.c" />
+    <ClCompile Include="VertexArray.cpp" />
+    <ClCompile Include="VertexBuffers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BufferLayout.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="gl_Game.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="VertexArray.h" />
+    <ClInclude Include="VertexBuffers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

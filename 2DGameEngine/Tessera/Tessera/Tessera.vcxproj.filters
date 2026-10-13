@@ -25,6 +25,12 @@
     <Filter Include="Source Files\GameEngineClasses">
       <UniqueIdentifier>{2301ab50-4fd6-4153-89e5-9d434added85}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\RendererClasses">
+      <UniqueIdentifier>{8a46b27c-d4f5-4c44-a00e-38f03969b17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vendor\stbi">
+      <UniqueIdentifier>{dd055df2-ffea-4663-9fbd-bb87cd2bec3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vendor\ImGui\imgui_demo.cpp">
@@ -159,6 +165,30 @@
     <ClCompile Include="gl_Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BufferLayout.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffers.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Resource Files\Vendor\stbi</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -166,6 +196,27 @@
     </ClInclude>
     <ClInclude Include="gl_Game.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferLayout.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffers.h">
+      <Filter>Source Files\RendererClasses</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
