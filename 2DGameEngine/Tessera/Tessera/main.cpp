@@ -13,7 +13,7 @@
 Game* game = nullptr;
 
 
-int main(void)
+int main(int argc , char* argv[])
 {
     game = new gl_Game(true,1000,500);
 

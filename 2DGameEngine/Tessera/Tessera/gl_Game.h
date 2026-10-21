@@ -6,7 +6,7 @@ class gl_Game : public Game
 {
 private:
     bool bVsync = false;
-    
+  
 
 public:
 

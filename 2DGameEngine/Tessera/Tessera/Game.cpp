@@ -61,7 +61,7 @@ void Game::Run()
 
         Uint64 frameTimeNS = SDL_GetTicksNS() - frameStart;
         double fps = 1'000'000'000.0 / frameTimeNS;
-        std::cout << "fps:" << fps << std::endl;
+        std::cout << "Fps :" << fps << std::endl;
     }
 }
 

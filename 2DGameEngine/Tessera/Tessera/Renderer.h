@@ -14,20 +14,37 @@ class VertexBuffers;
 class VertexArray;
 class IndexBuffer;
 class ShaderProgram;
-
+class Texture;
 
 class Renderer
 {
-    std::vector<std::unique_ptr<VertexArray>> vao;
-    std::vector < std::unique_ptr<VertexBuffers>> vbo;
-    std::vector<std::unique_ptr<IndexBuffer>> ibo;
-    std::unordered_map<std::string, std::unique_ptr<ShaderProgram>>Shaders;
-
+    std::unordered_map<std::string, std::vector<std::unique_ptr<VertexArray>>> vao;
+    std::unordered_map<std::string, std::vector<std::unique_ptr<VertexBuffers>>> vbo;
+    std::unordered_map<std::string, std::vector<std::unique_ptr<IndexBuffer>>> ibo;
+    std::unordered_map<std::string, std::unique_ptr<ShaderProgram>> Shaders;
+    std::unordered_map<std::string, std::vector<std::unique_ptr<Texture>>> Textures;
 
 public:
 
     // make functions to abstract all the gl calls basically
     // we have at making clear and draw  blend alpha update class as per ur need
+
+
+    // Push: create outside, move it in under a name
+    void PushVertexArray(const std::string& name, std::unique_ptr<VertexArray> vertexArray);
+    void PushVertexBuffer(const std::string& name, std::unique_ptr<VertexBuffers> vertexBuffer);
+    void PushIndexBuffer(const std::string& name, std::unique_ptr<IndexBuffer> indexBuffer);
+    void SetShader(const std::string& name, std::unique_ptr<ShaderProgram> shaderProgram);
+    void PushTexture(const std::string& name, std::unique_ptr<Texture> texture);
+
+    // Access: hand back the whole container
+    std::unordered_map<std::string, std::vector<std::unique_ptr<VertexArray>>>& GetVertexArrays();
+    std::unordered_map<std::string, std::vector<std::unique_ptr<VertexBuffers>>>& GetVertexBuffers();
+    std::unordered_map<std::string, std::vector<std::unique_ptr<IndexBuffer>>>& GetIndexBuffers();
+    std::unordered_map<std::string, std::unique_ptr<ShaderProgram>>& GetShaders();
+    std::unordered_map<std::string, std::vector<std::unique_ptr<Texture>>>& GetTextures();
+
+
 
     Renderer();
     void BlendAlpha() const;

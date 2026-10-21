@@ -4,6 +4,11 @@
 #include "VertexArray.h"
 #include "VertexBuffers.h"
 #include "BufferLayout.h"
+#include "Texture.h"
+
+
+
+
 
 Renderer::Renderer()
 {
@@ -68,6 +73,56 @@ void Renderer::Rect(const Rectangle& rect, const glm::mat4& mvp)
     // draw
     Draw(vao, ibo, *program);
 
+}
+
+void Renderer::PushVertexArray(const std::string& name, std::unique_ptr<VertexArray> vertexArray)
+{
+    vao[name].push_back(std::move(vertexArray));
+}
+
+void Renderer::PushVertexBuffer(const std::string& name, std::unique_ptr<VertexBuffers> vertexBuffer)
+{
+    vbo[name].push_back(std::move(vertexBuffer));
+}
+
+void Renderer::PushIndexBuffer(const std::string& name, std::unique_ptr<IndexBuffer> indexBuffer)
+{
+    ibo[name].push_back(std::move(indexBuffer));
+}
+
+void Renderer::SetShader(const std::string& name, std::unique_ptr<ShaderProgram> shaderProgram)
+{
+    Shaders.insert({ name,std::move(shaderProgram) });
+}
+
+void Renderer::PushTexture(const std::string& name, std::unique_ptr<Texture> texture)
+{
+    Textures[name].push_back(std::move(texture));
+}
+
+std::unordered_map<std::string, std::vector<std::unique_ptr<VertexArray>>>& Renderer::GetVertexArrays()
+{
+    return vao;
+}
+
+std::unordered_map<std::string, std::vector<std::unique_ptr<VertexBuffers>>>& Renderer::GetVertexBuffers()
+{
+    return vbo;
+}
+
+std::unordered_map<std::string, std::vector<std::unique_ptr<IndexBuffer>>>& Renderer::GetIndexBuffers()
+{
+    return ibo;
+}
+
+std::unordered_map<std::string, std::unique_ptr<ShaderProgram>>& Renderer::GetShaders()
+{
+    return Shaders;
+}
+
+std::unordered_map<std::string, std::vector<std::unique_ptr<Texture>>>& Renderer::GetTextures()
+{
+    return Textures;
 }
 
 void Renderer::Draw(const VertexArray& vao, const IndexBuffer& ibo, const ShaderProgram& program) const

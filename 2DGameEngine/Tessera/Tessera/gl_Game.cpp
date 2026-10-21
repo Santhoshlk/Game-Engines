@@ -36,7 +36,7 @@ void gl_Game::Initialize()
 
 
     SDL_Window* mainwindow = SDL_CreateWindow("Game Window", width, height, SDL_WINDOW_OPENGL | SDL_WINDOW_BORDERLESS);
-
+        
     if (!mainwindow)
     {
         printf("The sdl window creation has not been initialized correctly\n");
@@ -130,14 +130,17 @@ void gl_Game::Render()
 
 
     //Todo : actual rendering.
-    glm::mat4 proj = glm::ortho(0.f, (float)width, (float)height,0.f, -1.f, 1.f);
+    // glm::mat4 proj = glm::ortho(0.f, (float)width, (float)height,0.f, -1.f, 1.f);
+    //
+    // Rectangle rect(10.f, 10.f, 10.f, 20.f);
+    //
+    // renderer->Rect(rect,proj);
 
-    Rectangle rect(10.f, 10.f, 10.f, 20.f);
 
-    renderer->Rect(rect,proj);
-
+    // try to do textures now
 
 
+  // swap buffer
     SDL_GL_SwapWindow(GameWindow);
 
 
