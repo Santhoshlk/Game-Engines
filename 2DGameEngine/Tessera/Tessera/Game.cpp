@@ -16,6 +16,10 @@ Game::~Game()
     SDL_Quit();
 }
 
+void Game::Setup()
+{
+}
+
 void Game::Initialize()
 {
    if (!SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO))
@@ -45,7 +49,7 @@ void Game::Initialize()
 
 void Game::Run()
 {
-
+    Setup();
     while (isRunning)
     {
         Uint64 frameStart = SDL_GetTicksNS();

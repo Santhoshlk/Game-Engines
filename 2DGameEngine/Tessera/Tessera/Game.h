@@ -16,7 +16,7 @@ public:
 
     Game();
   virtual  ~Game();
-
+  virtual void Setup();
   virtual   void Initialize();
   virtual  void Run();
   virtual void Destroy();

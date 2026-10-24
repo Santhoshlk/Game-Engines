@@ -4,7 +4,12 @@
 #include <iostream>
 #include "Renderer.h"
 #include <gtc/matrix_transform.hpp>
-
+#include "ShaderProgram.h"
+#include "IndexBuffer.h"
+#include "VertexArray.h"
+#include "VertexBuffers.h"
+#include "BufferLayout.h"
+#include "Texture.h"
 
 
 gl_Game::gl_Game(bool vsync , int w , int h) :bVsync(vsync)
@@ -90,6 +95,12 @@ void gl_Game::Initialize()
     glViewport(0,0,framebufferwidth,framebufferheight);
 }
 
+void gl_Game::Setup()
+{
+    PlayerPosition = glm::vec2(0.f, 0.f);
+    velocity = glm::vec2(1.f, 1.f);
+}
+
 void gl_Game::Run()
 {
     Game::Run();
@@ -117,7 +128,9 @@ void gl_Game::ProcessInput()
 
 void gl_Game::Update()
 {
-    Game::Update();
+    // here
+    PlayerPosition.x += velocity.x;
+
 }
 
 void gl_Game::Render()
@@ -136,8 +149,12 @@ void gl_Game::Render()
     //
     // renderer->Rect(rect,proj);
 
+    glm::mat4 proj = glm::ortho(0.f, (float)width, (float)height,0.f, -1.f, 1.f);
 
-    // try to do textures now
+    Rectangle rect(PlayerPosition.x,PlayerPosition.y,10,20);
+
+    renderer->Rect(rect,proj);
+
 
 
   // swap buffer
