@@ -66,10 +66,10 @@ void Game::Run()
 
         Update();
         Render();
-
+            
         Uint64 frameTimeNS = SDL_GetTicksNS() - frameStart;
-        double fps = 1'000'000'000.0 / frameTimeNS;
-        std::cout << "Fps :" << fps << std::endl;
+        deltatime = static_cast<float>(frameTimeNS / pow(10.0, 9));
+        std::cout << "delta time :" << deltatime << std::endl;
     }
 }
 
@@ -102,6 +102,14 @@ void Game::ProcessInput()
 
 void Game::Update()
 {
+    size_t WaitTime = nanosecperframe - (SDL_GetTicks() - previousframetime) * 1000000.0;
+
+    if (WaitTime > 0 && WaitTime <= nanosecperframe)
+    {
+        SDL_DelayPrecise(WaitTime);
+    }
+    previousframetime = SDL_GetTicks();
+  
 }
 
 void Game::Render()

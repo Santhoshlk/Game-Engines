@@ -129,17 +129,8 @@ void gl_Game::ProcessInput()
 void gl_Game::Update()
 {
     // here
-    PlayerPosition.x += velocity.x;
-    size_t WaitTime = nanosecperframe - (SDL_GetTicks() - previousframetime)*1000000;
-
-    if (WaitTime > 0 && WaitTime <= nanosecperframe)
-    {
-        SDL_DelayPrecise(WaitTime);
-    }
-    previousframetime = SDL_GetTicks();
-    std::cout << "millisec per frame :" << nanosecperframe << std::endl;
-    std::cout << "Wait time per frame :" << WaitTime << std::endl;
-    std::cout << "previous frame time :" << previousframetime << std::endl;
+    PlayerPosition.x += velocity.x*deltatime;
+    Game::Update();
 }
 
 void gl_Game::Render()

@@ -15,7 +15,7 @@ Game* game = nullptr;
 
 int main(int argc , char* argv[])
 {
-    game = new gl_Game(true,1000,500,60);
+    game = new gl_Game(true,1000,500,120);
 
     game->Initialize();
 

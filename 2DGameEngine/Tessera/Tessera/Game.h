@@ -26,6 +26,8 @@ protected:
 
     //  some private data etc
     bool isRunning = true;
+    float deltatime = 0.f;
+
     size_t nanosecperframe;
     size_t previousframetime = 0.f;
     SDL_Window* GameWindow = nullptr;
