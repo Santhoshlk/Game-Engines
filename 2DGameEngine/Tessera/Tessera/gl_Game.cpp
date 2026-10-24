@@ -12,13 +12,13 @@
 #include "Texture.h"
 
 
-gl_Game::gl_Game(bool vsync , int w , int h) :bVsync(vsync)
+gl_Game::gl_Game(bool vsync, int w, int h, int fps) :bVsync(vsync)
 {
     width = w;
     height = h;
     renderer = std::make_unique<Renderer>();
+    nanosecperframe = pow(10.f,9) / static_cast<float>(fps);
 }
-
 void gl_Game::Initialize()
 {
     if (!SDL_Init(SDL_INIT_AUDIO | SDL_INIT_VIDEO))
@@ -130,7 +130,16 @@ void gl_Game::Update()
 {
     // here
     PlayerPosition.x += velocity.x;
+    size_t WaitTime = nanosecperframe - (SDL_GetTicks() - previousframetime)*1000000;
 
+    if (WaitTime > 0 && WaitTime <= nanosecperframe)
+    {
+        SDL_DelayPrecise(WaitTime);
+    }
+    previousframetime = SDL_GetTicks();
+    std::cout << "millisec per frame :" << nanosecperframe << std::endl;
+    std::cout << "Wait time per frame :" << WaitTime << std::endl;
+    std::cout << "previous frame time :" << previousframetime << std::endl;
 }
 
 void gl_Game::Render()

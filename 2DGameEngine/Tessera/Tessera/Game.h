@@ -10,11 +10,11 @@ class Renderer;
 class Game
 {
 private:
-    
+  
 
 public:
-
     Game();
+    Game(int fps);
   virtual  ~Game();
   virtual void Setup();
   virtual   void Initialize();
@@ -26,6 +26,8 @@ protected:
 
     //  some private data etc
     bool isRunning = true;
+    size_t nanosecperframe;
+    size_t previousframetime = 0.f;
     SDL_Window* GameWindow = nullptr;
     int width = 1000;
     int height = 500;

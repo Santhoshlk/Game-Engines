@@ -5,7 +5,11 @@
 
 Game::Game()
 {
+}
 
+Game::Game(int fps)
+{
+    nanosecperframe = pow(10.f,9) / static_cast<float>(fps);
 }
 
 Game::~Game()

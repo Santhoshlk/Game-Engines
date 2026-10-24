@@ -12,7 +12,7 @@ private:
 
 public:
 
-    gl_Game(bool vsync,int w,int h);
+    gl_Game(bool vsync,int w,int h,int fps = 60);
 
     virtual void Initialize() override;
 
