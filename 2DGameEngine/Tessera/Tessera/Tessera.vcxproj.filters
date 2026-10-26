@@ -31,6 +31,9 @@
     <Filter Include="Resource Files\Vendor\stbi">
       <UniqueIdentifier>{dd055df2-ffea-4663-9fbd-bb87cd2bec3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\TextFiles">
+      <UniqueIdentifier>{d422af17-52ab-4dc4-b7bc-9ad9e6a3c909}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vendor\ImGui\imgui_demo.cpp">
@@ -189,6 +192,9 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>Resource Files\Vendor\stbi</Filter>
     </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -221,5 +227,19 @@
     <ClInclude Include="RenderStructs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="objShader.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="Logs.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="savefile.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
   </ItemGroup>
 </Project>

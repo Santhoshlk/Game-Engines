@@ -69,7 +69,9 @@ void Game::Run()
             
         Uint64 frameTimeNS = SDL_GetTicksNS() - frameStart;
         deltatime = static_cast<float>(frameTimeNS / pow(10.0, 9));
-        std::cout << "delta time :" << deltatime << std::endl;
+        std::string message = "delta time :" + std::to_string(deltatime);
+
+        Logger::Log(LogType::Info,"");
     }
 }
 

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <SDL3/SDL.h>
 #include <memory>
+#include "Logger.h"
 
 class Renderer;
 
