@@ -159,86 +159,86 @@
     <ClCompile Include="Vendor\Lua\src\lzio.c">
       <Filter>Resource Files\Vendor\Lua</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_Game.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BufferLayout.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="ShaderProgram.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexArray.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexBuffers.cpp">
-      <Filter>Source Files\RendererClasses</Filter>
-    </ClCompile>
-    <ClCompile Include="stb_image.cpp">
+    <ClCompile Include="Vendor\stbi\stb_image.cpp">
       <Filter>Resource Files\Vendor\stbi</Filter>
     </ClCompile>
-    <ClCompile Include="Logger.cpp">
+    <ClCompile Include="src\Game\Game.cpp">
+      <Filter>Source Files\GameEngineClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\gl_Game.cpp">
+      <Filter>Source Files\GameEngineClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\BufferLayout.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\IndexBuffer.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\Renderer.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\ShaderProgram.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\Texture.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\VertexArray.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\OpenGL\VertexBuffers.cpp">
+      <Filter>Source Files\RendererClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logger\Logger.cpp">
+      <Filter>Source Files\GameEngineClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="src\Game\Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gl_Game.h">
+    <ClInclude Include="src\Game\gl_Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BufferLayout.h">
+    <ClInclude Include="src\Logger\Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IndexBuffer.h">
+    <ClInclude Include="src\Renderer\OpenGL\BufferLayout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Renderer.h">
+    <ClInclude Include="src\Renderer\OpenGL\IndexBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
+    <ClInclude Include="src\Renderer\OpenGL\Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShaderProgram.h">
+    <ClInclude Include="src\Renderer\OpenGL\RenderStructs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VertexArray.h">
+    <ClInclude Include="src\Renderer\OpenGL\ShaderProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VertexBuffers.h">
+    <ClInclude Include="src\Renderer\OpenGL\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RenderStructs.h">
+    <ClInclude Include="src\Renderer\OpenGL\VertexArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Logger.h">
+    <ClInclude Include="src\Renderer\OpenGL\VertexBuffers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="objShader.txt">
+    <Text Include="src\Logger\savefiles\Logs.txt">
       <Filter>Source Files\TextFiles</Filter>
     </Text>
-    <Text Include="Logs.txt">
+    <Text Include="src\Logger\savefiles\savefile.txt">
       <Filter>Source Files\TextFiles</Filter>
     </Text>
-    <Text Include="savefile.txt">
+    <Text Include="src\Renderer\Shaders\objShader.txt">
       <Filter>Source Files\TextFiles</Filter>
     </Text>
   </ItemGroup>

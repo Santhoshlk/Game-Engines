@@ -33,7 +33,7 @@ void Logger::Log(const LogType&type, const std::string& message)
        {
 
            // u did not set a new save file 
-           std::cout << "Please Set a save file in the set Savefile function in ur main.cpp right now its getting saved in logs.txt if u dont have please add it if ur using it . " << std::endl;
+           std::cout << "Please Set a save file in the set Savefile function in ur main.cpp right now its getting saved in Logs.txt if u dont have please add it if ur using it . " << std::endl;
            LogRefresh();
        }
        counter++;
@@ -47,7 +47,7 @@ void Logger::Log(const LogType&type, const std::string& message)
         return;
     }
 
-    std::string timestamp = std::format("{:%H:%M:%S}", std::chrono::floor<std::chrono::seconds>(std::chrono::current_zone()->to_local(std::chrono::system_clock::now())));
+    std::string timestamp = std::format("{:%H:%M:%S}",std::chrono::floor<std::chrono::seconds>(std::chrono::current_zone()->to_local(std::chrono::system_clock::now())));
     
     std::string pass;
     std::string consoleLog;
@@ -56,16 +56,16 @@ void Logger::Log(const LogType&type, const std::string& message)
     {
     case LogType::Info :
        
-        pass = "Log | " + timestamp + message + "\n";
+        pass = "Log | ["  +timestamp + "]\t"+message + "\n";
         consoleLog = "\033[32m" + pass;
 
         break;
     case LogType::Warning :
-        pass = "Warning |" + timestamp + message + "\n";
+        pass = "Warning | [" + timestamp + "]\t"+ message + "\n";
         consoleLog = "\033[33m" + pass;
         break;
     case LogType::Error :
-        pass = "Error |" + timestamp + message + "\n";
+        pass = "Error | ["  + timestamp + "]\t"+ message + "\n";
         consoleLog = "\033[31m" + pass;
         break;
     default:

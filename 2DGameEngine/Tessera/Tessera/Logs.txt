@@ -1,141 +1,525 @@
-Log | 17:45:49delta time :0.000343
-Log | 17:45:49delta time :0.007693
-Log | 17:45:49delta time :0.337568
-Log | 17:45:49delta time :0.048048
-Log | 17:45:49delta time :0.001204
-Log | 17:45:50delta time :0.025371
-Log | 17:45:50delta time :0.001480
-Log | 17:45:50delta time :0.032722
-Log | 17:45:50delta time :0.045901
-Log | 17:45:50delta time :0.001348
-Log | 17:45:50delta time :0.048868
-Log | 17:45:50delta time :0.007656
-Log | 17:45:50delta time :0.012891
-Log | 17:45:50delta time :0.006969
-Log | 17:45:50delta time :0.007111
-Log | 17:45:50delta time :0.011174
-Log | 17:45:50delta time :0.008566
-Log | 17:45:50delta time :0.005292
-Log | 17:45:50delta time :0.007186
-Log | 17:45:50delta time :0.008952
-Log | 17:45:50delta time :0.007399
-Log | 17:45:50delta time :0.012569
-Log | 17:45:50delta time :0.013522
-Log | 17:45:50delta time :0.020099
-Log | 17:45:50delta time :0.018109
-Log | 17:45:50delta time :0.018071
-Log | 17:45:50delta time :0.016198
-Log | 17:45:50delta time :0.006837
-Log | 17:45:50delta time :0.005316
-Log | 17:45:50delta time :0.004597
-Log | 17:45:50delta time :0.009522
-Log | 17:45:50delta time :0.008315
-Log | 17:45:50delta time :0.004535
-Log | 17:45:50delta time :0.007391
-Log | 17:45:50delta time :0.005981
-Log | 17:45:50delta time :0.006631
-Log | 17:45:50delta time :0.006143
-Log | 17:45:50delta time :0.007083
-Log | 17:45:50delta time :0.006957
-Log | 17:45:50delta time :0.008268
-Log | 17:45:50delta time :0.007744
-Log | 17:45:50delta time :0.007243
-Log | 17:45:50delta time :0.006872
-Log | 17:45:50delta time :0.008811
-Log | 17:45:50delta time :0.006921
-Log | 17:45:50delta time :0.007963
-Log | 17:45:50delta time :0.007636
-Log | 17:45:50delta time :0.008017
-Log | 17:45:50delta time :0.008051
-Log | 17:45:50delta time :0.007680
-Log | 17:45:50delta time :0.007935
-Log | 17:45:50delta time :0.008048
-Log | 17:45:50delta time :0.008144
-Log | 17:45:50delta time :0.007647
-Log | 17:45:50delta time :0.007476
-Log | 17:45:50delta time :0.008586
-Log | 17:45:50delta time :0.008642
-Log | 17:45:50delta time :0.008250
-Log | 17:45:50delta time :0.008435
-Log | 17:45:50delta time :0.008093
-Log | 17:45:50delta time :0.008600
-Log | 17:45:50delta time :0.007216
-Log | 17:45:50delta time :0.007238
-Log | 17:45:50delta time :0.007145
-Log | 17:45:50delta time :0.008820
-Log | 17:45:50delta time :0.006807
-Log | 17:45:50delta time :0.007845
-Log | 17:45:50delta time :0.007817
-Log | 17:45:50delta time :0.006496
-Log | 17:45:50delta time :0.006166
-Log | 17:45:50delta time :0.007302
-Log | 17:45:50delta time :0.006858
-Log | 17:45:50delta time :0.006530
-Log | 17:45:50delta time :0.007394
-Log | 17:45:50delta time :0.008064
-Log | 17:45:50delta time :0.009635
-Log | 17:45:50delta time :0.008690
-Log | 17:45:50delta time :0.009697
-Log | 17:45:50delta time :0.008989
-Log | 17:45:50delta time :0.001632
-Log | 17:45:50delta time :0.004430
-Log | 17:45:50delta time :0.006766
-Log | 17:45:50delta time :0.006165
-Log | 17:45:50delta time :0.006045
-Log | 17:45:50delta time :0.006682
-Log | 17:45:50delta time :0.005365
-Log | 17:45:50delta time :0.004788
-Log | 17:45:50delta time :0.006477
-Log | 17:45:50delta time :0.006868
-Log | 17:45:50delta time :0.005736
-Log | 17:45:50delta time :0.006893
-Log | 17:45:51delta time :0.007628
-Log | 17:45:51delta time :0.006841
-Log | 17:45:51delta time :0.007586
-Log | 17:45:51delta time :0.007568
-Log | 17:45:51delta time :0.007603
-Log | 17:45:51delta time :0.007563
-Log | 17:45:51delta time :0.008602
-Log | 17:45:51delta time :0.007544
-Log | 17:45:51delta time :0.007544
-Log | 17:45:51delta time :0.007589
-Log | 17:45:51delta time :0.007636
-Log | 17:45:51delta time :0.007525
-Log | 17:45:51delta time :0.007619
-Log | 17:45:51delta time :0.007553
-Log | 17:45:51delta time :0.007665
-Log | 17:45:51delta time :0.007533
-Log | 17:45:51delta time :0.007567
-Log | 17:45:51delta time :0.007555
-Log | 17:45:51delta time :0.007519
-Log | 17:45:51delta time :0.007557
-Log | 17:45:51delta time :0.008600
-Log | 17:45:51delta time :0.007557
-Log | 17:45:51delta time :0.007562
-Log | 17:45:51delta time :0.007576
-Log | 17:45:51delta time :0.008747
-Log | 17:45:51delta time :0.007621
-Log | 17:45:51delta time :0.007811
-Log | 17:45:51delta time :0.007694
-Log | 17:45:51delta time :0.004701
-Log | 17:45:51delta time :0.008005
-Log | 17:45:51delta time :0.006831
-Log | 17:45:51delta time :0.007151
-Log | 17:45:51delta time :0.006101
-Log | 17:45:51delta time :0.007352
-Log | 17:45:51delta time :0.005690
-Log | 17:45:51delta time :0.006394
-Log | 17:45:51delta time :0.008453
-Log | 17:45:51delta time :0.010757
-Log | 17:45:51delta time :0.007360
-Log | 17:45:51delta time :0.005110
-Log | 17:45:51delta time :0.004348
-Log | 17:45:51delta time :0.007336
-Log | 17:45:51delta time :0.008969
-Log | 17:45:51delta time :0.008437
-Log | 17:45:51delta time :0.004864
-Log | 17:45:51delta time :0.002947
-Log | 17:45:51delta time :0.004582
-Log | 17:45:51delta time :0.006378
-Log | 17:45:51delta time :0.006026
-Log | 17:45:51delta time :0.005965
+Log | [19:36:53]	delta time :0.000336
+Log | [19:36:53]	delta time :0.007857
+Log | [19:36:53]	delta time :0.007734
+Log | [19:36:53]	delta time :0.008746
+Log | [19:36:53]	delta time :0.007696
+Log | [19:36:53]	delta time :0.007905
+Log | [19:36:53]	delta time :0.008922
+Log | [19:36:53]	delta time :0.005878
+Log | [19:36:53]	delta time :0.008307
+Log | [19:36:53]	delta time :0.006884
+Log | [19:36:53]	delta time :0.007857
+Log | [19:36:53]	delta time :0.008021
+Log | [19:36:53]	delta time :0.007243
+Log | [19:36:53]	delta time :0.007917
+Log | [19:36:53]	delta time :0.006557
+Log | [19:36:53]	delta time :0.007955
+Log | [19:36:53]	delta time :0.006794
+Log | [19:36:53]	delta time :0.007433
+Log | [19:36:53]	delta time :0.006004
+Log | [19:36:53]	delta time :0.004206
+Log | [19:36:53]	delta time :0.008607
+Log | [19:36:53]	delta time :0.023497
+Log | [19:36:53]	delta time :0.024115
+Log | [19:36:53]	delta time :0.018974
+Log | [19:36:53]	delta time :0.015631
+Log | [19:36:53]	delta time :0.011248
+Log | [19:36:53]	delta time :0.005418
+Log | [19:36:53]	delta time :0.007051
+Log | [19:36:53]	delta time :0.004928
+Log | [19:36:53]	delta time :0.004030
+Log | [19:36:53]	delta time :0.005649
+Log | [19:36:53]	delta time :0.005694
+Log | [19:36:53]	delta time :0.006355
+Log | [19:36:53]	delta time :0.004356
+Log | [19:36:53]	delta time :0.005240
+Log | [19:36:53]	delta time :0.006274
+Log | [19:36:53]	delta time :0.005808
+Log | [19:36:53]	delta time :0.007971
+Log | [19:36:53]	delta time :0.006938
+Log | [19:36:53]	delta time :0.006666
+Log | [19:36:53]	delta time :0.007315
+Log | [19:36:53]	delta time :0.007357
+Log | [19:36:53]	delta time :0.006964
+Log | [19:36:53]	delta time :0.008152
+Log | [19:36:53]	delta time :0.007916
+Log | [19:36:53]	delta time :0.008110
+Log | [19:36:53]	delta time :0.007826
+Log | [19:36:53]	delta time :0.007923
+Log | [19:36:53]	delta time :0.007820
+Log | [19:36:53]	delta time :0.007804
+Log | [19:36:53]	delta time :0.008006
+Log | [19:36:53]	delta time :0.007782
+Log | [19:36:53]	delta time :0.007888
+Log | [19:36:53]	delta time :0.008187
+Log | [19:36:53]	delta time :0.006720
+Log | [19:36:53]	delta time :0.007645
+Log | [19:36:53]	delta time :0.007732
+Log | [19:36:53]	delta time :0.007589
+Log | [19:36:53]	delta time :0.007830
+Log | [19:36:53]	delta time :0.007575
+Log | [19:36:53]	delta time :0.009116
+Log | [19:36:53]	delta time :0.007633
+Log | [19:36:53]	delta time :0.007815
+Log | [19:36:53]	delta time :0.007703
+Log | [19:36:53]	delta time :0.008738
+Log | [19:36:53]	delta time :0.008725
+Log | [19:36:53]	delta time :0.008635
+Log | [19:36:53]	delta time :0.007583
+Log | [19:36:53]	delta time :0.007657
+Log | [19:36:53]	delta time :0.007851
+Log | [19:36:53]	delta time :0.007854
+Log | [19:36:53]	delta time :0.008027
+Log | [19:36:53]	delta time :0.007963
+Log | [19:36:53]	delta time :0.007637
+Log | [19:36:53]	delta time :0.007651
+Log | [19:36:53]	delta time :0.008599
+Log | [19:36:53]	delta time :0.008999
+Log | [19:36:53]	delta time :0.007665
+Log | [19:36:53]	delta time :0.007765
+Log | [19:36:53]	delta time :0.007723
+Log | [19:36:53]	delta time :0.007688
+Log | [19:36:53]	delta time :0.007553
+Log | [19:36:53]	delta time :0.008791
+Log | [19:36:53]	delta time :0.007783
+Log | [19:36:53]	delta time :0.007842
+Log | [19:36:53]	delta time :0.007657
+Log | [19:36:53]	delta time :0.008095
+Log | [19:36:53]	delta time :0.006731
+Log | [19:36:53]	delta time :0.007840
+Log | [19:36:53]	delta time :0.007942
+Log | [19:36:53]	delta time :0.007662
+Log | [19:36:53]	delta time :0.007943
+Log | [19:36:53]	delta time :0.007901
+Log | [19:36:53]	delta time :0.007797
+Log | [19:36:53]	delta time :0.007779
+Log | [19:36:53]	delta time :0.007894
+Log | [19:36:53]	delta time :0.008045
+Log | [19:36:53]	delta time :0.007726
+Log | [19:36:53]	delta time :0.007646
+Log | [19:36:53]	delta time :0.008225
+Log | [19:36:53]	delta time :0.006740
+Log | [19:36:53]	delta time :0.007919
+Log | [19:36:53]	delta time :0.007764
+Log | [19:36:53]	delta time :0.007756
+Log | [19:36:54]	delta time :0.007846
+Log | [19:36:54]	delta time :0.007879
+Log | [19:36:54]	delta time :0.008271
+Log | [19:36:54]	delta time :0.007196
+Log | [19:36:54]	delta time :0.007727
+Log | [19:36:54]	delta time :0.007124
+Log | [19:36:54]	delta time :0.006944
+Log | [19:36:54]	delta time :0.005493
+Log | [19:36:54]	delta time :0.006493
+Log | [19:36:54]	delta time :0.006022
+Log | [19:36:54]	delta time :0.008468
+Log | [19:36:54]	delta time :0.004018
+Log | [19:36:54]	delta time :0.012846
+Log | [19:36:54]	delta time :0.008520
+Log | [19:36:54]	delta time :0.012922
+Log | [19:36:54]	delta time :0.003692
+Log | [19:36:54]	delta time :0.003695
+Log | [19:36:54]	delta time :0.007006
+Log | [19:36:54]	delta time :0.003495
+Log | [19:36:54]	delta time :0.005515
+Log | [19:36:54]	delta time :0.007405
+Log | [19:36:54]	delta time :0.005303
+Log | [19:36:54]	delta time :0.007246
+Log | [19:36:54]	delta time :0.005541
+Log | [19:36:54]	delta time :0.006692
+Log | [19:36:54]	delta time :0.006258
+Log | [19:36:54]	delta time :0.007038
+Log | [19:36:54]	delta time :0.006897
+Log | [19:36:54]	delta time :0.007768
+Log | [19:36:54]	delta time :0.007728
+Log | [19:36:54]	delta time :0.007011
+Log | [19:36:54]	delta time :0.007697
+Log | [19:36:54]	delta time :0.007793
+Log | [19:36:54]	delta time :0.008094
+Log | [19:36:54]	delta time :0.007841
+Log | [19:36:54]	delta time :0.007791
+Log | [19:36:54]	delta time :0.007974
+Log | [19:36:54]	delta time :0.008844
+Log | [19:36:54]	delta time :0.007817
+Log | [19:36:54]	delta time :0.007715
+Log | [19:36:54]	delta time :0.007756
+Log | [19:36:54]	delta time :0.007865
+Log | [19:36:54]	delta time :0.007822
+Log | [19:36:54]	delta time :0.007970
+Log | [19:36:54]	delta time :0.007764
+Log | [19:36:54]	delta time :0.007921
+Log | [19:36:54]	delta time :0.007621
+Log | [19:36:54]	delta time :0.007872
+Log | [19:36:54]	delta time :0.007871
+Log | [19:36:54]	delta time :0.007720
+Log | [19:36:54]	delta time :0.007682
+Log | [19:36:54]	delta time :0.007888
+Log | [19:36:54]	delta time :0.006763
+Log | [19:36:54]	delta time :0.007897
+Log | [19:36:54]	delta time :0.008119
+Log | [19:36:54]	delta time :0.007865
+Log | [19:36:54]	delta time :0.008003
+Log | [19:36:54]	delta time :0.007673
+Log | [19:36:54]	delta time :0.007729
+Log | [19:36:54]	delta time :0.007667
+Log | [19:36:54]	delta time :0.008870
+Log | [19:36:54]	delta time :0.007736
+Log | [19:36:54]	delta time :0.007725
+Log | [19:36:54]	delta time :0.007801
+Log | [19:36:54]	delta time :0.007658
+Log | [19:36:54]	delta time :0.007618
+Log | [19:36:54]	delta time :0.007698
+Log | [19:36:54]	delta time :0.007654
+Log | [19:36:54]	delta time :0.007685
+Log | [19:36:54]	delta time :0.007636
+Log | [19:36:54]	delta time :0.010093
+Log | [19:36:54]	delta time :0.006735
+Log | [19:36:54]	delta time :0.008036
+Log | [19:36:54]	delta time :0.007932
+Log | [19:36:54]	delta time :0.008002
+Log | [19:36:54]	delta time :0.007837
+Log | [19:36:54]	delta time :0.007914
+Log | [19:36:54]	delta time :0.007980
+Log | [19:36:54]	delta time :0.007828
+Log | [19:36:54]	delta time :0.007929
+Log | [19:36:54]	delta time :0.007981
+Log | [19:36:54]	delta time :0.007016
+Log | [19:36:54]	delta time :0.007998
+Log | [19:36:54]	delta time :0.008126
+Log | [19:36:54]	delta time :0.008157
+Log | [19:36:54]	delta time :0.008390
+Log | [19:36:54]	delta time :0.006747
+Log | [19:36:54]	delta time :0.006492
+Log | [19:36:54]	delta time :0.007182
+Log | [19:36:54]	delta time :0.005697
+Log | [19:36:54]	delta time :0.006853
+Log | [19:36:54]	delta time :0.006392
+Log | [19:36:54]	delta time :0.008949
+Log | [19:36:54]	delta time :0.011382
+Log | [19:36:54]	delta time :0.008399
+Log | [19:36:54]	delta time :0.007186
+Log | [19:36:54]	delta time :0.009742
+Log | [19:36:54]	delta time :0.007505
+Log | [19:36:54]	delta time :0.008247
+Log | [19:36:54]	delta time :0.003714
+Log | [19:36:54]	delta time :0.003902
+Log | [19:36:54]	delta time :0.004778
+Log | [19:36:54]	delta time :0.004686
+Log | [19:36:54]	delta time :0.005428
+Log | [19:36:54]	delta time :0.006689
+Log | [19:36:54]	delta time :0.006671
+Log | [19:36:55]	delta time :0.006410
+Log | [19:36:55]	delta time :0.006640
+Log | [19:36:55]	delta time :0.006041
+Log | [19:36:55]	delta time :0.007293
+Log | [19:36:55]	delta time :0.008071
+Log | [19:36:55]	delta time :0.007818
+Log | [19:36:55]	delta time :0.007765
+Log | [19:36:55]	delta time :0.007921
+Log | [19:36:55]	delta time :0.007748
+Log | [19:36:55]	delta time :0.007805
+Log | [19:36:55]	delta time :0.007736
+Log | [19:36:55]	delta time :0.007638
+Log | [19:36:55]	delta time :0.007770
+Log | [19:36:55]	delta time :0.007744
+Log | [19:36:55]	delta time :0.008806
+Log | [19:36:55]	delta time :0.007812
+Log | [19:36:55]	delta time :0.007948
+Log | [19:36:55]	delta time :0.007847
+Log | [19:36:55]	delta time :0.007818
+Log | [19:36:55]	delta time :0.007921
+Log | [19:36:55]	delta time :0.007812
+Log | [19:36:55]	delta time :0.007933
+Log | [19:36:55]	delta time :0.007938
+Log | [19:36:55]	delta time :0.008118
+Log | [19:36:55]	delta time :0.007845
+Log | [19:36:55]	delta time :0.007765
+Log | [19:36:55]	delta time :0.007763
+Log | [19:36:55]	delta time :0.007717
+Log | [19:36:55]	delta time :0.007637
+Log | [19:36:55]	delta time :0.008636
+Log | [19:36:55]	delta time :0.007731
+Log | [19:36:55]	delta time :0.007942
+Log | [19:36:55]	delta time :0.007892
+Log | [19:36:55]	delta time :0.007861
+Log | [19:36:55]	delta time :0.008020
+Log | [19:36:55]	delta time :0.008040
+Log | [19:36:55]	delta time :0.006874
+Log | [19:36:55]	delta time :0.008166
+Log | [19:36:55]	delta time :0.006842
+Log | [19:36:55]	delta time :0.008065
+Log | [19:36:55]	delta time :0.008138
+Log | [19:36:55]	delta time :0.008147
+Log | [19:36:55]	delta time :0.007595
+Log | [19:36:55]	delta time :0.009007
+Log | [19:36:55]	delta time :0.007937
+Log | [19:36:55]	delta time :0.007787
+Log | [19:36:55]	delta time :0.008708
+Log | [19:36:55]	delta time :0.007856
+Log | [19:36:55]	delta time :0.007769
+Log | [19:36:55]	delta time :0.007795
+Log | [19:36:55]	delta time :0.007686
+Log | [19:36:55]	delta time :0.008973
+Log | [19:36:55]	delta time :0.007883
+Log | [19:36:55]	delta time :0.007904
+Log | [19:36:55]	delta time :0.007975
+Log | [19:36:55]	delta time :0.007957
+Log | [19:36:55]	delta time :0.007889
+Log | [19:36:55]	delta time :0.007809
+Log | [19:36:55]	delta time :0.007916
+Log | [19:36:55]	delta time :0.008011
+Log | [19:36:55]	delta time :0.007927
+Log | [19:36:55]	delta time :0.007941
+Log | [19:36:55]	delta time :0.008023
+Log | [19:36:55]	delta time :0.007770
+Log | [19:36:55]	delta time :0.008581
+Log | [19:36:55]	delta time :0.007772
+Log | [19:36:55]	delta time :0.008126
+Log | [19:36:55]	delta time :0.007951
+Log | [19:36:55]	delta time :0.007783
+Log | [19:36:55]	delta time :0.007751
+Log | [19:36:55]	delta time :0.008216
+Log | [19:36:55]	delta time :0.007756
+Log | [19:36:55]	delta time :0.008939
+Log | [19:36:55]	delta time :0.007849
+Log | [19:36:55]	delta time :0.007700
+Log | [19:36:55]	delta time :0.007912
+Log | [19:36:55]	delta time :0.008000
+Log | [19:36:55]	delta time :0.007748
+Log | [19:36:55]	delta time :0.007840
+Log | [19:36:55]	delta time :0.008893
+Log | [19:36:55]	delta time :0.007875
+Log | [19:36:55]	delta time :0.007765
+Log | [19:36:55]	delta time :0.007815
+Log | [19:36:55]	delta time :0.007795
+Log | [19:36:55]	delta time :0.007904
+Log | [19:36:55]	delta time :0.007965
+Log | [19:36:55]	delta time :0.007920
+Log | [19:36:55]	delta time :0.006802
+Log | [19:36:55]	delta time :0.008131
+Log | [19:36:55]	delta time :0.008013
+Log | [19:36:55]	delta time :0.007730
+Log | [19:36:55]	delta time :0.007865
+Log | [19:36:55]	delta time :0.007915
+Log | [19:36:55]	delta time :0.007985
+Log | [19:36:55]	delta time :0.007763
+Log | [19:36:55]	delta time :0.008931
+Log | [19:36:55]	delta time :0.007946
+Log | [19:36:55]	delta time :0.007773
+Log | [19:36:55]	delta time :0.007955
+Log | [19:36:55]	delta time :0.007012
+Log | [19:36:55]	delta time :0.007979
+Log | [19:36:55]	delta time :0.006818
+Log | [19:36:55]	delta time :0.007718
+Log | [19:36:55]	delta time :0.007922
+Log | [19:36:55]	delta time :0.007921
+Log | [19:36:55]	delta time :0.007848
+Log | [19:36:55]	delta time :0.007678
+Log | [19:36:55]	delta time :0.008881
+Log | [19:36:55]	delta time :0.008425
+Log | [19:36:55]	delta time :0.006860
+Log | [19:36:55]	delta time :0.008108
+Log | [19:36:55]	delta time :0.007900
+Log | [19:36:55]	delta time :0.007988
+Log | [19:36:55]	delta time :0.007752
+Log | [19:36:55]	delta time :0.008837
+Log | [19:36:55]	delta time :0.008022
+Log | [19:36:55]	delta time :0.008066
+Log | [19:36:55]	delta time :0.006749
+Log | [19:36:55]	delta time :0.007857
+Log | [19:36:55]	delta time :0.007858
+Log | [19:36:56]	delta time :0.008138
+Log | [19:36:56]	delta time :0.007861
+Log | [19:36:56]	delta time :0.007822
+Log | [19:36:56]	delta time :0.007821
+Log | [19:36:56]	delta time :0.007691
+Log | [19:36:56]	delta time :0.008961
+Log | [19:36:56]	delta time :0.007907
+Log | [19:36:56]	delta time :0.007818
+Log | [19:36:56]	delta time :0.007964
+Log | [19:36:56]	delta time :0.007850
+Log | [19:36:56]	delta time :0.006956
+Log | [19:36:56]	delta time :0.007934
+Log | [19:36:56]	delta time :0.007046
+Log | [19:36:56]	delta time :0.008076
+Log | [19:36:56]	delta time :0.008066
+Log | [19:36:56]	delta time :0.007918
+Log | [19:36:56]	delta time :0.007850
+Log | [19:36:56]	delta time :0.007933
+Log | [19:36:56]	delta time :0.006917
+Log | [19:36:56]	delta time :0.007822
+Log | [19:36:56]	delta time :0.007719
+Log | [19:36:56]	delta time :0.007692
+Log | [19:36:56]	delta time :0.007961
+Log | [19:36:56]	delta time :0.007961
+Log | [19:36:56]	delta time :0.007684
+Log | [19:36:56]	delta time :0.007838
+Log | [19:36:56]	delta time :0.007755
+Log | [19:36:56]	delta time :0.007776
+Log | [19:36:56]	delta time :0.007832
+Log | [19:36:56]	delta time :0.007839
+Log | [19:36:56]	delta time :0.007723
+Log | [19:36:56]	delta time :0.007734
+Log | [19:36:56]	delta time :0.007901
+Log | [19:36:56]	delta time :0.007911
+Log | [19:36:56]	delta time :0.006912
+Log | [19:36:56]	delta time :0.007963
+Log | [19:36:56]	delta time :0.008032
+Log | [19:36:56]	delta time :0.008054
+Log | [19:36:56]	delta time :0.007745
+Log | [19:36:56]	delta time :0.007949
+Log | [19:36:56]	delta time :0.007915
+Log | [19:36:56]	delta time :0.007861
+Log | [19:36:56]	delta time :0.007734
+Log | [19:36:56]	delta time :0.007886
+Log | [19:36:56]	delta time :0.007795
+Log | [19:36:56]	delta time :0.007635
+Log | [19:36:56]	delta time :0.007652
+Log | [19:36:56]	delta time :0.007668
+Log | [19:36:56]	delta time :0.008724
+Log | [19:36:56]	delta time :0.007732
+Log | [19:36:56]	delta time :0.007728
+Log | [19:36:56]	delta time :0.007819
+Log | [19:36:56]	delta time :0.009131
+Log | [19:36:56]	delta time :0.007703
+Log | [19:36:56]	delta time :0.008690
+Log | [19:36:56]	delta time :0.008836
+Log | [19:36:56]	delta time :0.007901
+Log | [19:36:56]	delta time :0.007820
+Log | [19:36:56]	delta time :0.008811
+Log | [19:36:56]	delta time :0.007920
+Log | [19:36:56]	delta time :0.007597
+Log | [19:36:56]	delta time :0.008901
+Log | [19:36:56]	delta time :0.007875
+Log | [19:36:56]	delta time :0.007771
+Log | [19:36:56]	delta time :0.007726
+Log | [19:36:56]	delta time :0.009158
+Log | [19:36:56]	delta time :0.007655
+Log | [19:36:56]	delta time :0.008754
+Log | [19:36:56]	delta time :0.007894
+Log | [19:36:56]	delta time :0.007958
+Log | [19:36:56]	delta time :0.007888
+Log | [19:36:56]	delta time :0.008041
+Log | [19:36:56]	delta time :0.006821
+Log | [19:36:56]	delta time :0.007711
+Log | [19:36:56]	delta time :0.007730
+Log | [19:36:56]	delta time :0.008804
+Log | [19:36:56]	delta time :0.007815
+Log | [19:36:56]	delta time :0.007814
+Log | [19:36:56]	delta time :0.008144
+Log | [19:36:56]	delta time :0.007673
+Log | [19:36:56]	delta time :0.007668
+Log | [19:36:56]	delta time :0.007843
+Log | [19:36:56]	delta time :0.007777
+Log | [19:36:56]	delta time :0.008058
+Log | [19:36:56]	delta time :0.007696
+Log | [19:36:56]	delta time :0.007858
+Log | [19:36:56]	delta time :0.007798
+Log | [19:36:56]	delta time :0.007718
+Log | [19:36:56]	delta time :0.007678
+Log | [19:36:56]	delta time :0.008809
+Log | [19:36:56]	delta time :0.007986
+Log | [19:36:56]	delta time :0.008063
+Log | [19:36:56]	delta time :0.007661
+Log | [19:36:56]	delta time :0.007750
+Log | [19:36:56]	delta time :0.007809
+Log | [19:36:56]	delta time :0.007980
+Log | [19:36:56]	delta time :0.007839
+Log | [19:36:56]	delta time :0.007779
+Log | [19:36:56]	delta time :0.007825
+Log | [19:36:56]	delta time :0.007756
+Log | [19:36:56]	delta time :0.007782
+Log | [19:36:56]	delta time :0.007893
+Log | [19:36:56]	delta time :0.008035
+Log | [19:36:56]	delta time :0.006886
+Log | [19:36:56]	delta time :0.008063
+Log | [19:36:56]	delta time :0.006734
+Log | [19:36:56]	delta time :0.007799
+Log | [19:36:56]	delta time :0.007908
+Log | [19:36:56]	delta time :0.007848
+Log | [19:36:56]	delta time :0.007871
+Log | [19:36:56]	delta time :0.007862
+Log | [19:36:56]	delta time :0.007831
+Log | [19:36:56]	delta time :0.007944
+Log | [19:36:56]	delta time :0.007668
+Log | [19:36:56]	delta time :0.007958
+Log | [19:36:56]	delta time :0.007977
+Log | [19:36:56]	delta time :0.007697
+Log | [19:36:56]	delta time :0.008010
+Log | [19:36:57]	delta time :0.007847
+Log | [19:36:57]	delta time :0.008054
+Log | [19:36:57]	delta time :0.008121
+Log | [19:36:57]	delta time :0.008010
+Log | [19:36:57]	delta time :0.006703
+Log | [19:36:57]	delta time :0.007708
+Log | [19:36:57]	delta time :0.008034
+Log | [19:36:57]	delta time :0.007836
+Log | [19:36:57]	delta time :0.008013
+Log | [19:36:57]	delta time :0.007908
+Log | [19:36:57]	delta time :0.007859
+Log | [19:36:57]	delta time :0.007085
+Log | [19:36:57]	delta time :0.007851
+Log | [19:36:57]	delta time :0.008926
+Log | [19:36:57]	delta time :0.007810
+Log | [19:36:57]	delta time :0.008058
+Log | [19:36:57]	delta time :0.008147
+Log | [19:36:57]	delta time :0.007867
+Log | [19:36:57]	delta time :0.007687
+Log | [19:36:57]	delta time :0.007953
+Log | [19:36:57]	delta time :0.007845
+Log | [19:36:57]	delta time :0.007908
+Log | [19:36:57]	delta time :0.008106
+Log | [19:36:57]	delta time :0.007895
+Log | [19:36:57]	delta time :0.008058
+Log | [19:36:57]	delta time :0.007750
+Log | [19:36:57]	delta time :0.008141
+Log | [19:36:57]	delta time :0.007833
+Log | [19:36:57]	delta time :0.007969
+Log | [19:36:57]	delta time :0.007730
+Log | [19:36:57]	delta time :0.008016
+Log | [19:36:57]	delta time :0.007938
+Log | [19:36:57]	delta time :0.007215
+Log | [19:36:57]	delta time :0.008022
+Log | [19:36:57]	delta time :0.008119
+Log | [19:36:57]	delta time :0.007995
+Log | [19:36:57]	delta time :0.008051
+Log | [19:36:57]	delta time :0.006971
+Log | [19:36:57]	delta time :0.007715
+Log | [19:36:57]	delta time :0.008077
+Log | [19:36:57]	delta time :0.006870
+Log | [19:36:57]	delta time :0.007984
+Log | [19:36:57]	delta time :0.007898
+Log | [19:36:57]	delta time :0.007897
+Log | [19:36:57]	delta time :0.007840
+Log | [19:36:57]	delta time :0.007877
+Log | [19:36:57]	delta time :0.007724
+Log | [19:36:57]	delta time :0.007931
+Log | [19:36:57]	delta time :0.007885
+Log | [19:36:57]	delta time :0.008051
+Log | [19:36:57]	delta time :0.007854
+Log | [19:36:57]	delta time :0.008055
+Log | [19:36:57]	delta time :0.007890
+Log | [19:36:57]	delta time :0.007795
+Log | [19:36:57]	delta time :0.008064
+Log | [19:36:57]	delta time :0.007779
+Log | [19:36:57]	delta time :0.008045
+Log | [19:36:57]	delta time :0.006754
+Log | [19:36:57]	delta time :0.008008
+Log | [19:36:57]	delta time :0.007873
+Log | [19:36:57]	delta time :0.007961
+Log | [19:36:57]	delta time :0.008025
+Log | [19:36:57]	delta time :0.007048
+Log | [19:36:57]	delta time :0.007807
+Log | [19:36:57]	delta time :0.007917
+Log | [19:36:57]	delta time :0.007996
+Log | [19:36:57]	delta time :0.007948
+Log | [19:36:57]	delta time :0.008166
+Log | [19:36:57]	delta time :0.007676
+Log | [19:36:57]	delta time :0.008731
+Log | [19:36:57]	delta time :0.007939
+Log | [19:36:57]	delta time :0.007935
+Log | [19:36:57]	delta time :0.007899
+Log | [19:36:57]	delta time :0.007766
+Log | [19:36:57]	delta time :0.007783
+Log | [19:36:57]	delta time :0.007847
+Log | [19:36:57]	delta time :0.007708
