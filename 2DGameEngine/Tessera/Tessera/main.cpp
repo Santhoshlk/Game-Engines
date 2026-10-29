@@ -16,8 +16,7 @@ Game* game = nullptr;
 
 int main(int argc , char* argv[])
 {
-    Logger::SetSavefile("savefile.txt");
-    Logger::LogRefresh();
+    // Logger::SetSavefile("savefile.txt");
     game = new gl_Game(true,1000,500,120);
 
     game->Initialize();

@@ -1,109 +1,141 @@
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:44
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
-Log | 20:48:45
+Log | 17:45:49delta time :0.000343
+Log | 17:45:49delta time :0.007693
+Log | 17:45:49delta time :0.337568
+Log | 17:45:49delta time :0.048048
+Log | 17:45:49delta time :0.001204
+Log | 17:45:50delta time :0.025371
+Log | 17:45:50delta time :0.001480
+Log | 17:45:50delta time :0.032722
+Log | 17:45:50delta time :0.045901
+Log | 17:45:50delta time :0.001348
+Log | 17:45:50delta time :0.048868
+Log | 17:45:50delta time :0.007656
+Log | 17:45:50delta time :0.012891
+Log | 17:45:50delta time :0.006969
+Log | 17:45:50delta time :0.007111
+Log | 17:45:50delta time :0.011174
+Log | 17:45:50delta time :0.008566
+Log | 17:45:50delta time :0.005292
+Log | 17:45:50delta time :0.007186
+Log | 17:45:50delta time :0.008952
+Log | 17:45:50delta time :0.007399
+Log | 17:45:50delta time :0.012569
+Log | 17:45:50delta time :0.013522
+Log | 17:45:50delta time :0.020099
+Log | 17:45:50delta time :0.018109
+Log | 17:45:50delta time :0.018071
+Log | 17:45:50delta time :0.016198
+Log | 17:45:50delta time :0.006837
+Log | 17:45:50delta time :0.005316
+Log | 17:45:50delta time :0.004597
+Log | 17:45:50delta time :0.009522
+Log | 17:45:50delta time :0.008315
+Log | 17:45:50delta time :0.004535
+Log | 17:45:50delta time :0.007391
+Log | 17:45:50delta time :0.005981
+Log | 17:45:50delta time :0.006631
+Log | 17:45:50delta time :0.006143
+Log | 17:45:50delta time :0.007083
+Log | 17:45:50delta time :0.006957
+Log | 17:45:50delta time :0.008268
+Log | 17:45:50delta time :0.007744
+Log | 17:45:50delta time :0.007243
+Log | 17:45:50delta time :0.006872
+Log | 17:45:50delta time :0.008811
+Log | 17:45:50delta time :0.006921
+Log | 17:45:50delta time :0.007963
+Log | 17:45:50delta time :0.007636
+Log | 17:45:50delta time :0.008017
+Log | 17:45:50delta time :0.008051
+Log | 17:45:50delta time :0.007680
+Log | 17:45:50delta time :0.007935
+Log | 17:45:50delta time :0.008048
+Log | 17:45:50delta time :0.008144
+Log | 17:45:50delta time :0.007647
+Log | 17:45:50delta time :0.007476
+Log | 17:45:50delta time :0.008586
+Log | 17:45:50delta time :0.008642
+Log | 17:45:50delta time :0.008250
+Log | 17:45:50delta time :0.008435
+Log | 17:45:50delta time :0.008093
+Log | 17:45:50delta time :0.008600
+Log | 17:45:50delta time :0.007216
+Log | 17:45:50delta time :0.007238
+Log | 17:45:50delta time :0.007145
+Log | 17:45:50delta time :0.008820
+Log | 17:45:50delta time :0.006807
+Log | 17:45:50delta time :0.007845
+Log | 17:45:50delta time :0.007817
+Log | 17:45:50delta time :0.006496
+Log | 17:45:50delta time :0.006166
+Log | 17:45:50delta time :0.007302
+Log | 17:45:50delta time :0.006858
+Log | 17:45:50delta time :0.006530
+Log | 17:45:50delta time :0.007394
+Log | 17:45:50delta time :0.008064
+Log | 17:45:50delta time :0.009635
+Log | 17:45:50delta time :0.008690
+Log | 17:45:50delta time :0.009697
+Log | 17:45:50delta time :0.008989
+Log | 17:45:50delta time :0.001632
+Log | 17:45:50delta time :0.004430
+Log | 17:45:50delta time :0.006766
+Log | 17:45:50delta time :0.006165
+Log | 17:45:50delta time :0.006045
+Log | 17:45:50delta time :0.006682
+Log | 17:45:50delta time :0.005365
+Log | 17:45:50delta time :0.004788
+Log | 17:45:50delta time :0.006477
+Log | 17:45:50delta time :0.006868
+Log | 17:45:50delta time :0.005736
+Log | 17:45:50delta time :0.006893
+Log | 17:45:51delta time :0.007628
+Log | 17:45:51delta time :0.006841
+Log | 17:45:51delta time :0.007586
+Log | 17:45:51delta time :0.007568
+Log | 17:45:51delta time :0.007603
+Log | 17:45:51delta time :0.007563
+Log | 17:45:51delta time :0.008602
+Log | 17:45:51delta time :0.007544
+Log | 17:45:51delta time :0.007544
+Log | 17:45:51delta time :0.007589
+Log | 17:45:51delta time :0.007636
+Log | 17:45:51delta time :0.007525
+Log | 17:45:51delta time :0.007619
+Log | 17:45:51delta time :0.007553
+Log | 17:45:51delta time :0.007665
+Log | 17:45:51delta time :0.007533
+Log | 17:45:51delta time :0.007567
+Log | 17:45:51delta time :0.007555
+Log | 17:45:51delta time :0.007519
+Log | 17:45:51delta time :0.007557
+Log | 17:45:51delta time :0.008600
+Log | 17:45:51delta time :0.007557
+Log | 17:45:51delta time :0.007562
+Log | 17:45:51delta time :0.007576
+Log | 17:45:51delta time :0.008747
+Log | 17:45:51delta time :0.007621
+Log | 17:45:51delta time :0.007811
+Log | 17:45:51delta time :0.007694
+Log | 17:45:51delta time :0.004701
+Log | 17:45:51delta time :0.008005
+Log | 17:45:51delta time :0.006831
+Log | 17:45:51delta time :0.007151
+Log | 17:45:51delta time :0.006101
+Log | 17:45:51delta time :0.007352
+Log | 17:45:51delta time :0.005690
+Log | 17:45:51delta time :0.006394
+Log | 17:45:51delta time :0.008453
+Log | 17:45:51delta time :0.010757
+Log | 17:45:51delta time :0.007360
+Log | 17:45:51delta time :0.005110
+Log | 17:45:51delta time :0.004348
+Log | 17:45:51delta time :0.007336
+Log | 17:45:51delta time :0.008969
+Log | 17:45:51delta time :0.008437
+Log | 17:45:51delta time :0.004864
+Log | 17:45:51delta time :0.002947
+Log | 17:45:51delta time :0.004582
+Log | 17:45:51delta time :0.006378
+Log | 17:45:51delta time :0.006026
+Log | 17:45:51delta time :0.005965

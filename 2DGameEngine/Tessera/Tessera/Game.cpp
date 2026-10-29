@@ -71,7 +71,7 @@ void Game::Run()
         deltatime = static_cast<float>(frameTimeNS / pow(10.0, 9));
         std::string message = "delta time :" + std::to_string(deltatime);
 
-        Logger::Log(LogType::Info,"");
+        Logger::Log(LogType::Info,message);
     }
 }
 

@@ -4,7 +4,9 @@
 
 std::string Logger::filename = "Logs.txt";
 std::ofstream Logger::savefile;
+bool Logger::bSavefileSet = false;
 
+static int counter = 0;
 
 Logger::Logger()
 {
@@ -12,7 +14,10 @@ Logger::Logger()
 
 void Logger::SetSavefile(const std::string& savefilename)
 {
+    if (savefilename == "Logs.txt") bSavefileSet = false;
+    bSavefileSet = true;
     filename = savefilename;
+    LogRefresh();
 }
 
 void Logger::Log(const LogType&type, const std::string& message)
@@ -22,6 +27,18 @@ void Logger::Log(const LogType&type, const std::string& message)
     // 2) Info
     //3) Warning
     
+    if (!bSavefileSet)
+    {
+       if (counter == 0)
+       {
+
+           // u did not set a new save file 
+           std::cout << "Please Set a save file in the set Savefile function in ur main.cpp right now its getting saved in logs.txt if u dont have please add it if ur using it . " << std::endl;
+           LogRefresh();
+       }
+       counter++;
+    }
+
     savefile.open(filename,std::ios::app);
 
     if (!savefile.is_open())

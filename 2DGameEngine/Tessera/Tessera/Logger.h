@@ -12,6 +12,7 @@ enum class LogType : uint8_t
 
 class Logger
 {
+     static bool bSavefileSet;
     static std::string filename;
     static std::ofstream savefile;
 public:
