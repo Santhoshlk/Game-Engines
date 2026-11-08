@@ -6,11 +6,13 @@
 
 Texture::Texture(const std::string& filepath) : m_filepath(filepath)
 {
-    // load the image
     stbi_set_flip_vertically_on_load(1);
 
     // u chose unsigned buffer because its unsigned buffer as a return type
    m_Buffer = stbi_load(filepath.c_str(),&m_Width,&m_Height,&m_BPP,4);
+
+
+   
  
     if (!m_Buffer)
     {

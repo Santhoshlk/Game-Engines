@@ -34,6 +34,30 @@
     <Filter Include="Source Files\TextFiles">
       <UniqueIdentifier>{d422af17-52ab-4dc4-b7bc-9ad9e6a3c909}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{41d2f371-f11c-49b8-b825-ea5aa240cea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{e271888e-d3d5-49f4-9bfa-aba6823904ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{c9783f29-5eac-4992-ad1a-de08113868f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{b0d46156-2040-476e-a533-ce4413f200c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Systems">
+      <UniqueIdentifier>{8e061f9f-3f96-4c25-b0a3-59a9a8fb6f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{0ec05ed8-282f-432a-9ee6-59fe7964d347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{4ae7d7c3-6618-4d57-b4b2-e6f41074f842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Render">
+      <UniqueIdentifier>{922c32d4-e1b1-4b2a-a569-c4c26bd8b09f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Vendor\ImGui\imgui_demo.cpp">
@@ -195,40 +219,52 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\ECS\ECS.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Renderer\OpenGL\BufferLayout.h">
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ECS\ECS.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
     <ClInclude Include="src\Game\Game.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game</Filter>
     </ClInclude>
     <ClInclude Include="src\Game\gl_Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Logger\Logger.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Renderer\OpenGL\BufferLayout.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\IndexBuffer.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logger\Logger.h">
+      <Filter>Header Files\Game</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\Renderer.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\RenderStructs.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\ShaderProgram.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\Texture.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\VertexArray.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
     </ClInclude>
     <ClInclude Include="src\Renderer\OpenGL\VertexBuffers.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Components\TransformComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Systems\MovementSystem.h">
+      <Filter>Header Files\Systems</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -239,6 +275,9 @@
       <Filter>Source Files\TextFiles</Filter>
     </Text>
     <Text Include="src\Renderer\Shaders\objShader.txt">
+      <Filter>Source Files\TextFiles</Filter>
+    </Text>
+    <Text Include="PyramidTexture.txt">
       <Filter>Source Files\TextFiles</Filter>
     </Text>
   </ItemGroup>

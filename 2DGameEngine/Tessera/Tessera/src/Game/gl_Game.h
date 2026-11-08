@@ -7,8 +7,7 @@ class gl_Game : public Game
 {
 private:
     bool bVsync = false;
-    glm::vec2 PlayerPosition;
-    glm::vec2 velocity;
+  
 
 public:
 

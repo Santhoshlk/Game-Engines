@@ -111,7 +111,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)Vendor\glm;D:\ExternalLibraries\GLEW\include;$(ProjectDir)Vendor\ImGui;$(ProjectDir)Vendor\ImGui\Backend;$(ProjectDir)Vendor\SDL3;$(ProjectDir)Vendor\Lua\src;$(ProjectDir)Vendor\Sol;$(ProjectDir)Vendor\stbi;$(ProjectDir)src\Game;$(ProjectDir)src\Logger;$(ProjectDir)src\Logger\savefiles;$(ProjectDir)src\Renderer\OpenGL;$(ProjectDir)src\Renderer\Shaders;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Vendor\glm;D:\ExternalLibraries\GLEW\include;$(ProjectDir)Vendor\ImGui;$(ProjectDir)Vendor\ImGui\Backend;$(ProjectDir)Vendor\SDL3;$(ProjectDir)Vendor\Lua\src;$(ProjectDir)Vendor\Sol;$(ProjectDir)Vendor\stbi;$(ProjectDir)src\Game;$(ProjectDir)src\Logger;$(ProjectDir)src\Logger\savefiles;$(ProjectDir)src\Renderer\OpenGL;$(ProjectDir)src\Renderer\Shaders;$(ProjectDir)src;$(ProjectDir)src\ECS;$(ProjectDir)src\Components;$(ProjectDir)src\Systems;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,6 +142,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\ECS\ECS.cpp" />
     <ClCompile Include="src\Game\Game.cpp" />
     <ClCompile Include="src\Game\gl_Game.cpp" />
     <ClCompile Include="src\Logger\Logger.cpp" />
@@ -203,6 +204,8 @@
     <ClCompile Include="Vendor\stbi\stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Components\TransformComponent.h" />
+    <ClInclude Include="src\ECS\ECS.h" />
     <ClInclude Include="src\Game\Game.h" />
     <ClInclude Include="src\Game\gl_Game.h" />
     <ClInclude Include="src\Logger\Logger.h" />
@@ -214,8 +217,10 @@
     <ClInclude Include="src\Renderer\OpenGL\Texture.h" />
     <ClInclude Include="src\Renderer\OpenGL\VertexArray.h" />
     <ClInclude Include="src\Renderer\OpenGL\VertexBuffers.h" />
+    <ClInclude Include="src\Systems\MovementSystem.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="PyramidTexture.txt" />
     <Text Include="src\Logger\savefiles\Logs.txt" />
     <Text Include="src\Logger\savefiles\savefile.txt" />
     <Text Include="src\Renderer\Shaders\objShader.txt" />

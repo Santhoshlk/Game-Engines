@@ -5,11 +5,8 @@
 #include "Renderer.h"
 #include <gtc/matrix_transform.hpp>
 #include "ShaderProgram.h"
-#include "IndexBuffer.h"
-#include "VertexArray.h"
-#include "VertexBuffers.h"
-#include "BufferLayout.h"
-#include "Texture.h"
+#include "ECS.h"
+#include "MovementSystem.h"
 
 
 gl_Game::gl_Game(bool vsync, int w, int h, int fps) :bVsync(vsync)
@@ -97,8 +94,13 @@ void gl_Game::Initialize()
 
 void gl_Game::Setup()
 {
-    PlayerPosition = glm::vec2(0.f, 0.f);
-    velocity = glm::vec2(1.f, 1.f);
+    //TODO :
+    // define entity
+    // tank = registry.CreateEntity();
+    // tank.AddComponent<TransformComponent>();
+    // tank.AddComponent<SpriteComponent>();
+    // tank.AddComponent<BoxComponent>();
+
 }
 
 void gl_Game::Run()
@@ -131,6 +133,9 @@ void gl_Game::Update()
     // here
     PlayerPosition.x += velocity.x*deltatime;
     Game::Update();
+
+    //TODO :
+    // MovementSystem.update(deltatime);
 }
 
 void gl_Game::Render()
@@ -140,7 +145,7 @@ void gl_Game::Render()
     renderer->Clear();
 
    
-
+    // do rendering here
 
     //Todo : actual rendering.
     // glm::mat4 proj = glm::ortho(0.f, (float)width, (float)height,0.f, -1.f, 1.f);
